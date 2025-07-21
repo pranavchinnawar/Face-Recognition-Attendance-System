@@ -32,3 +32,66 @@ while the principal has full control over attendance and user management.
 
 ### 5️⃣ Attendance Storage
 - Attendance stored in structured format:
+
+### 6️⃣ Email Notifications
+- Sends automated emails to parents for daily attendance
+
+### 7️⃣ Web-Based Interface
+- **Flask-based web app**
+- Built with **HTML, CSS, Bootstrap** for responsive UI
+
+---
+
+## 📂 Project Structure
+attendance_system/
+│── app.py # Main Flask App
+│── config.py # Configuration settings
+│── helper.py # Utility functions
+│── requirements.txt # Dependencies
+│
+├── routes/ # Backend logic
+│ ├── auth.py # Authentication
+│ ├── teacher.py # Teacher functionalities
+│ ├── principal.py # Principal functionalities
+│
+├── templates/ # Frontend HTML Pages
+│ ├── base.html # Common layout
+│ ├── navbar.html # Navigation bar
+│ ├── footer.html # Footer
+│ ├── login.html # Login Page
+│ ├── teacher_dashboard.html # Teacher Dashboard
+│ ├── principal_dashboard.html # Principal Dashboard
+│ ├── attendance.html # View Attendance
+│ ├── select_slot.html # Slot Selection
+│ ├── manage_slots.html # Slot Management
+│
+├── static/ # CSS, JS, Images
+│ ├── images/ # Icons/Logos
+│ ├── style.css # Stylesheet
+│ ├── script.js # JavaScript
+│
+├── data/ # Storage
+│ ├── users.csv # User Credentials
+│ ├── database.json # User Details
+│ ├── attendance/ # Attendance Records
+│
+├── face_recognition/ # Face Recognition
+│ ├── capture_faces.py # Capture & Store Faces
+│ ├── recognize_faces.py # Detect & Mark Attendance
+│
+├── email_notification.py # Send Emails to Parents
+
+---
+
+## 🚀 Installation & Setup
+
+### 1️⃣ Install Dependencies
+```bash
+pip install -r requirements.txt
+
+### 2️⃣ Run the Application
+python app.py
+
+3️⃣ Access Web App
+Open browser and go to:
+🔗 http://127.0.0.1:5000/
