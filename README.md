@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Face Recognition-Based Attendance System
 
@@ -100,3 +101,6 @@ For any issues, feel free to **report bugs or suggest features!**
 
 ---
 **Made for Schools | Automated & Secure Attendance System** 🎓 ✅
+=======
+# face-recognition-attendance-system
+>>>>>>> 4494959d369b09e32ba50d3bdb7c8d0c1fdfb58a
